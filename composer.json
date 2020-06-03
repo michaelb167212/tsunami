@@ -1,0 +1,13 @@
+{
+    "name": "michaelb/tsunami",
+    "description": "static html css project",
+    "authors": [
+        {
+            "name": "michael barreto",
+            "email": "michaelb167212@gmail.com"
+        }
+    ],
+    "require": {
+        "erusev/parsedown": "1.0"
+    }
+}
