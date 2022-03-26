@@ -8,6 +8,6 @@
         }
     ],
     "require": {
-        "erusev/parsedown": "1.0"
+        "erusev/parsedown": "1.7.2"
     }
 }

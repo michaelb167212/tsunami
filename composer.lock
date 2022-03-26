@@ -4,21 +4,28 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8f8db0ff7759f21fffffaec9565735aa",
+    "content-hash": "1866709d5aee1ab9f7f82f4d61beeab5",
     "packages": [
         {
             "name": "erusev/parsedown",
-            "version": "1.0.0",
+            "version": "v1.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "2da10d277b086372f17b96df6cdc903829e1dde0"
+                "reference": "d60bcdc46978357759ecb13cb4b078da783f8faf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/2da10d277b086372f17b96df6cdc903829e1dde0",
-                "reference": "2da10d277b086372f17b96df6cdc903829e1dde0",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/d60bcdc46978357759ecb13cb4b078da783f8faf",
+                "reference": "d60bcdc46978357759ecb13cb4b078da783f8faf",
                 "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35"
             },
             "type": "library",
             "autoload": {
@@ -43,7 +50,7 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2014-05-14T10:14:49+00:00"
+            "time": "2019-03-17T17:19:46+00:00"
         }
     ],
     "packages-dev": [],
